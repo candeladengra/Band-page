@@ -1,0 +1,192 @@
+#login {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bc5e1e5-c655-4ebd-b248-1dbbc9450adb/d7bdqll-c50128f5-ff36-4f07-b9f0-3cc8b8715a11.png/v1/fill/w_1024,h_576,q_80,strp/band_collage_by_rockzilla14_d7bdqll-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNWJjNWUxZTUtYzY1NS00ZWJkLWIyNDgtMWRiYmM5NDUwYWRiXC9kN2JkcWxsLWM1MDEyOGY1LWZmMzYtNGYwNy1iOWYwLTNjYzhiODcxNWExMS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.TsoUdMyuKfQcvB-FMx623y91-PvLLCLOpobM7qJvDA4);
+}
+
+#form-login-div {
+  width: 20vw;
+  height: 32vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#error-message {
+  color: red;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#login-btn{
+  margin-top: -10px;
+  transition: all 0.7s ease!important;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#logout-btn {
+  transition: all 0.7s ease!important;
+  font-family: 'PT Serif', serif!important;
+  font-family: 'Roboto Mono', monospace!important;
+  font-weight: 800;
+}
+
+#icon {
+  margin-right: 10px;
+}
+
+#navBar-div {
+  width: 100vw;  
+  height: 10vh;  
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bc5e1e5-c655-4ebd-b248-1dbbc9450adb/d7bdqll-c50128f5-ff36-4f07-b9f0-3cc8b8715a11.png/v1/fill/w_1024,h_576,q_80,strp/band_collage_by_rockzilla14_d7bdqll-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNWJjNWUxZTUtYzY1NS00ZWJkLWIyNDgtMWRiYmM5NDUwYWRiXC9kN2JkcWxsLWM1MDEyOGY1LWZmMzYtNGYwNy1iOWYwLTNjYzhiODcxNWExMS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.TsoUdMyuKfQcvB-FMx623y91-PvLLCLOpobM7qJvDA4);
+  padding: 12px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#navBarButton {
+  padding: 8px;
+  margin-right: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #1976d2;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#navBarButton:hover {
+  background-color: white;
+  color: #1976d2;
+}
+
+#table {
+  margin-top: 20px;
+  width: 100vw;
+}
+
+ol::before {
+  content: "🎸"
+}
+
+.band-data::before {
+  content: "🎵 "
+}
+
+.band-data {
+  margin-top: 15px;
+  list-style-type:none;
+}
+
+ol:first-of-type {
+  margin-top: 15px
+}
+
+#modal-modal-title {
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#modalbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  width: 50%;
+}
+
+#box {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+#hide-btn-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#hide-modal-btn {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 8px;
+  width: 150px;
+}
+
+#hide-modal-btn:hover {
+  background-color: #1976d2;
+}
+
+#img-modal {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 170px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.MuiTableCell-root {
+  text-align: center!important;
+  font-family: 'PT Serif', serif!important;
+  font-family: 'Roboto Mono', monospace !important;
+  font-weight: 600!important;
+}
+
+.MuiFormControl-root {
+  width: 400px;
+}
+
+#modal-wrapper {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+
+  img {
+    width: 120px;
+    margin-left: 30px;
+  }
+  #box {
+    font-size:16px;
+    width: 300px;
+  }
+
+  .band-data{
+    margin-left: -20px;
+  }
+
+  ul {
+    margin-left: -20px;
+  }
+
+  #form-login-div {
+    width: 70vw;
+    height: 35vh;
+  }
+ 
+}
+
+
